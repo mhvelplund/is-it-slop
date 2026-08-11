@@ -1,0 +1,41 @@
+{
+  "name": "is_it_slop",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0",
+    "openai": "^7.4.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "wxt": "^0.21.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@wxt-dev/module-react": "^1.2.2",
+    "tsx": "^4.23.12",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
+  }
+}
