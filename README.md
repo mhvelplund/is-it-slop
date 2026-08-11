@@ -24,10 +24,9 @@ no data collection.
 
 ## Architecture
 
-See `docs/superpowers/specs/2026-08-11-is-it-slop-design.md` for the full design. In short: `lib/` holds plain,
-unit-tested TypeScript (storage, Wikipedia criteria caching, provider clients, analysis orchestration); `entrypoints/`
-holds the WXT-specific glue (background service worker, content script, options page) that wires that logic to browser
-APIs.
+`lib/` holds plain, unit-tested TypeScript (storage, Wikipedia criteria caching, provider clients, analysis orchestration); 
+`entrypoints/` holds the WXT-specific glue (background service worker, content script, options page) that wires that logic 
+to browser APIs.
 
 ## Security model
 
