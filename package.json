@@ -36,6 +36,6 @@
     "@wxt-dev/module-react": "^1.2.2",
     "tsx": "^4.23.12",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.12"
   }
 }
